@@ -1,7 +1,7 @@
 div{
-    margin-top: 4.5rem;
-    margin-left: 18%;
-    margin-right:20%;
+   
+    /* margin-left: 18%;
+    margin-right:20%; */
     
 }
 button{
@@ -22,7 +22,7 @@ button:hover{
     color: #5c109e;
 }
 span{
-    font-size: 1.1rem;
+    font-size: 1rem;
     
 }
 img{

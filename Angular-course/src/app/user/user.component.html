@@ -3,8 +3,9 @@
     <button (click)="onUserSelected()">
         <!-- will remove this image later -->
        <!--  <img [src]="'assets/users/'+current_user.avatar"/>property binding -->
-        <img [src]="imagePath()"/>
-       <span>{{(current_user()).name}}</span> <!-- string interpolation -->
+       <!--  <img [src]="'assets/users/'+current_user.avatar"/>property binding -->
+        <img [src]="'assets/users/'+user.avatar"/>
+       <span>{{user.name}}</span> <!-- string interpolation -->
         
 
     </button>
