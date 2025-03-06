@@ -1,0 +1,21 @@
+#users{
+    list-style: none;
+    display: flex;
+    gap:0.7rem;
+    flex-direction: column;
+    
+}
+ul{
+    margin-top: 4rem;
+}
+li{
+    min-width: 17rem;
+}
+main{
+     padding: 0.5rem;
+     gap:5rem;
+     display: flex;
+     flex-direction: row;
+     margin-left: 17%;
+     text-align: center;
+}

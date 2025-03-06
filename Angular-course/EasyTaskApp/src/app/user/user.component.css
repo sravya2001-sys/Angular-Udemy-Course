@@ -1,0 +1,32 @@
+div{
+   
+    /* margin-left: 18%;
+    margin-right:20%; */
+    
+}
+button{
+    background-color: #433352;
+    color: #c3b3d1;
+    border: none;
+    width:100%;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    max-width: 15rem;
+    text-align: left;
+    padding:0.2rem;
+   border-radius: 6px;
+}
+button:hover{
+    background-color: #c298e6;
+    color: #5c109e;
+}
+span{
+    font-size: 1rem;
+    
+}
+img{
+    height: 3rem;
+    width:3rem;
+    border-radius: 50%;
+}

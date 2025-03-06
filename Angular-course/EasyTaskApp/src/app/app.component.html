@@ -1,0 +1,7 @@
+<app-header></app-header>
+<main>
+    <ul id="users" >
+        <li *ngFor="let user of users"><app-user  [user]="user"  (select) = onRecieveChildData($event)></app-user></li>
+    </ul>
+     <app-tasks [selectedUserName]="selectedUser.name"></app-tasks> 
+</main>
